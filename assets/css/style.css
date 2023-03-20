@@ -450,6 +450,10 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+ .ccc_circle{border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;-o-border-radius:100%}
+ .ccc_circle{width:13px;height:13px;background-color:#3cd672;animation:breath 2s infinite;-webkit-animation:breath 2s infinite}
+ @keyframes breath{30%{opacity:1}50%{opacity:0}70%{opacity:1}}
+  
 .container {
   width: 100%;
   padding-right: 15px;
