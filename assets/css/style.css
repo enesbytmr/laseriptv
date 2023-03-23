@@ -15577,6 +15577,9 @@ header {
     .header-dark[class*="-not-top"][class*="-pinned"] .navbar-brand,
     .header-light[class*="-not-top"][class*="-pinned"] .navbar-brand {
       color: #000; } }
+#jump{
+  scroll-behavior: smooth;
+}
 
 body {
   position: relative;
